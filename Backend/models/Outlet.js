@@ -10,6 +10,10 @@ const OutletSchema = new Schema({
         type: String,
         required: true
     },
+    deskripsi: {
+        type: String,
+        required: true
+    },
     telepon: {
         type: String,
         required: true

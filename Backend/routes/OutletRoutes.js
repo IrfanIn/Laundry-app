@@ -7,4 +7,6 @@ router.get('/outlet', OutletController.getOutlet);
 
 router.post('/outlet', OutletController.createOutlet);
 
+router.delete('/outlet/:outletId', OutletController.deleteOutlet);
+
 module.exports = router

@@ -1,0 +1,30 @@
+form {
+  padding: 1rem;
+}
+
+.input_wrap {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem;
+  gap: 0.4rem;
+  font-size: 0.9rem;
+}
+
+.input_wrap input {
+  border: none;
+  outline: none;
+  background-color: #d1d1f3;
+  padding: 0.3rem;
+  font-size: 0.9rem;
+  transition: all 0.3s ease-out;
+}
+
+.input_wrap input:focus {
+  background-color: #b0b0f7;
+}
+
+.button_wrap {
+  margin-top: 2rem;
+  display: flex;
+  gap: 0.5rem;
+}

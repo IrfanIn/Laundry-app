@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -18,7 +19,13 @@ code {
     monospace;
 }
 
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .wrapper {
-  width: 85%;
+  width: 80%;
   margin: auto;
 }

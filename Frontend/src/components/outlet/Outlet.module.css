@@ -1,0 +1,12 @@
+.outlet h3 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #363636;
+}
+
+.outlet_item {
+  margin-top: 2rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}

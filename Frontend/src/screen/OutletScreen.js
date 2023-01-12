@@ -3,9 +3,7 @@ import Outlet from '../components/outlet/Outlet'
 
 
 const OutletScreen = () => {
-    return (
-        <Outlet />
-    )
+    return <Outlet />
 }
 
 export default OutletScreen
