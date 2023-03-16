@@ -1,0 +1,7 @@
+[
+  m1 {
+    description: 'Finest fish and veggies',
+    name: 'sushi',
+    price: 22.99
+  }
+]
